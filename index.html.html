@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Thực đơn 3 món</title>
+<style>
+*{box-sizing:border-box}
+body{
+  margin:0;padding:35px;background:#eef1f7;
+  font-family:"Times New Roman",serif;color:#173b87;
+}
+.menu{
+  max-width:1100px;margin:auto;background:#fff;
+  padding:32px 38px 38px;box-shadow:0 3px 15px #0002;
+}
+h1{text-align:center;font-size:44px;margin:0 0 28px}
+table{width:100%;border-collapse:collapse;table-layout:fixed}
+th,td{border:2px solid #173b87}
+th{
+  background:#e8edf9;font-size:25px;padding:16px;
+  text-align:center;
+}
+td{padding:16px;vertical-align:middle}
+.name{width:38%}.price{width:18%;text-align:center}.pic{width:44%;text-align:center}
+.dish{font-size:26px;font-weight:bold;margin-bottom:10px}
+.desc{font-size:20px;font-style:italic;line-height:1.4}
+.price strong{font-size:25px}
+.illustration{
+  width:230px;height:145px;margin:auto;display:block;
+}
+@media(max-width:700px){
+ body{padding:10px}.menu{padding:18px}
+ h1{font-size:34px}th{font-size:18px}td{padding:9px}
+ .dish{font-size:19px}.desc{font-size:15px}.price strong{font-size:18px}
+ .illustration{width:150px;height:100px}
+}
+</style>
+</head>
+<body>
+<div class="menu">
+<h1>THỰC ĐƠN</h1>
+<table>
+<thead>
+<tr><th class="name">Tên món</th><th class="price">Giá</th><th class="pic">Hình ảnh minh họa</th></tr>
+</thead>
+<tbody>
+
+<tr>
+<td class="name">
+<div class="dish">1. Phở Bò</div>
+<div class="desc">Phở bò truyền thống, nước dùng đậm đà.</div>
+</td>
+<td class="price"><strong>45.000đ</strong></td>
+<td class="pic">
+<svg class="illustration" viewBox="0 0 230 145" aria-label="Phở bò">
+ <ellipse cx="115" cy="118" rx="83" ry="13" fill="#d8d8d8"/>
+ <path d="M35 65 Q115 38 195 65 L183 112 Q115 137 47 112Z" fill="#fff" stroke="#173b87" stroke-width="3"/>
+ <ellipse cx="115" cy="67" rx="80" ry="28" fill="#c99a55" stroke="#173b87" stroke-width="3"/>
+ <path d="M55 63 Q85 54 113 67 T175 61" fill="none" stroke="#f4e4b4" stroke-width="7"/>
+ <path d="M62 73 Q92 61 125 73 T168 70" fill="none" stroke="#f4e4b4" stroke-width="6"/>
+ <ellipse cx="87" cy="62" rx="13" ry="7" fill="#9b5b46"/>
+ <ellipse cx="122" cy="58" rx="14" ry="7" fill="#9b5b46"/>
+ <ellipse cx="151" cy="68" rx="13" ry="7" fill="#9b5b46"/>
+ <path d="M96 47 l7 -13 M108 46 l3 -16 M120 48 l7 -14" stroke="#3c8b4b" stroke-width="4"/>
+</svg>
+</td>
+</tr>
+
+<tr>
+<td class="name">
+<div class="dish">2. Cơm Gà Xối Mỡ</div>
+<div class="desc">Cơm trắng ăn kèm gà chiên giòn, mỡ hành.</div>
+</td>
+<td class="price"><strong>50.000đ</strong></td>
+<td class="pic">
+<svg class="illustration" viewBox="0 0 230 145" aria-label="Cơm gà">
+ <ellipse cx="115" cy="118" rx="88" ry="13" fill="#d8d8d8"/>
+ <ellipse cx="115" cy="88" rx="83" ry="37" fill="#fff" stroke="#173b87" stroke-width="3"/>
+ <ellipse cx="105" cy="76" rx="27" ry="22" fill="#fff" stroke="#bbb" stroke-width="2"/>
+ <path d="M75 96 Q72 62 106 57 Q137 59 141 88 Q129 108 99 108 Q80 105 75 96Z" fill="#d77a32" stroke="#9b4c1d" stroke-width="3"/>
+ <path d="M84 72 Q105 62 129 72 M81 82 Q106 71 135 82 M83 92 Q106 81 130 91" fill="none" stroke="#efad54" stroke-width="4"/>
+ <circle cx="168" cy="91" r="14" fill="#72a957"/>
+ <circle cx="174" cy="69" r="11" fill="#e36d52"/>
+ <path d="M86 49 Q104 42 124 49" fill="none" stroke="#4c9b50" stroke-width="5"/>
+</svg>
+</td>
+</tr>
+
+<tr>
+<td class="name">
+<div class="dish">3. Bún Chả Hà Nội</div>
+<div class="desc">Bún, chả nướng, rau sống và nước chấm ngon.</div>
+</td>
+<td class="price"><strong>40.000đ</strong></td>
+<td class="pic">
+<svg class="illustration" viewBox="0 0 230 145" aria-label="Bún chả">
+ <ellipse cx="115" cy="119" rx="88" ry="12" fill="#d8d8d8"/>
+ <ellipse cx="76" cy="88" rx="40" ry="28" fill="#e6b65d" stroke="#173b87" stroke-width="3"/>
+ <ellipse cx="158" cy="83" rx="34" ry="25" fill="#fff" stroke="#173b87" stroke-width="3"/>
+ <path d="M49 84 Q72 68 99 84 M48 91 Q72 76 99 91 M53 99 Q75 83 98 98" fill="none" stroke="#fff" stroke-width="6"/>
+ <circle cx="147" cy="77" r="9" fill="#743d2c"/><circle cx="168" cy="82" r="9" fill="#743d2c"/>
+ <circle cx="151" cy="95" r="9" fill="#743d2c"/>
+ <path d="M184 59 q13 -15 25 0 q-9 15 -25 0 M183 70 q16 -12 26 2" fill="#55a05b"/>
+ <circle cx="49" cy="55" r="22" fill="#e8b95d" stroke="#173b87" stroke-width="3"/>
+ <path d="M35 55 Q49 45 63 55" fill="none" stroke="#b36a32" stroke-width="5"/>
+</svg>
+</td>
+</tr>
+
+</tbody>
+</table>
+</div>
+</body>
+</html>
